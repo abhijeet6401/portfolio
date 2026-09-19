@@ -106,5 +106,5 @@ The application is fully compatible with Vercel or any Node.js environment:
 # Push to your Git repository, then import into Vercel
 # Configure environment variables in Vercel:
 NEXT_PUBLIC_SITE_URL=https://your-domain.com
-NEXT_PUBLIC_CONTACT_EMAIL=realabhijeet007@gmail.com
+NEXT_PUBLIC_CONTACT_EMAIL=abhijeet2k6@gmail.com
 ```
