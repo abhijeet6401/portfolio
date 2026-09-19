@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     title: "Abhijeet Kumar — Product Builder",
     description:
       "Product builder turning messy user and operating problems into products, decisions, and systems that work.",
-    url: "https://abhijeetkumar.dev",
+    url: process.env.NEXT_PUBLIC_SITE_URL || "https://abhijeetkumar.dev",
     siteName: "Abhijeet Kumar Portfolio",
     locale: "en_US",
     type: "website",

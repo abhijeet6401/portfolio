@@ -1,10 +1,10 @@
 import { Metadata } from "next";
 import { Suspense } from "react";
 import { caseStudies } from "@/content/work";
-import { WorkIndexItem } from "@/components/work-index-item";
-import { FilterBar } from "@/components/filter-bar";
-import { WorkCategory } from "@/lib/content-schema";
+import { WorkCatalog } from "@/components/work-catalog";
 import { generatePageMetadata } from "@/lib/metadata";
+
+export const dynamic = "force-static";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Proof of Work · Case Studies",
@@ -13,35 +13,7 @@ export const metadata: Metadata = generatePageMetadata({
   path: "/work",
 });
 
-interface WorkPageProps {
-  searchParams: Promise<{ filter?: string }>;
-}
-
-export default async function WorkPage({ searchParams }: WorkPageProps) {
-  const resolvedParams = await searchParams;
-  const currentFilter = resolvedParams?.filter || "all";
-
-  // Compute counts
-  const counts = {
-    all: caseStudies.length,
-    product: caseStudies.filter((c) => c.categories.includes("product")).length,
-    strategy: caseStudies.filter((c) => c.categories.includes("strategy")).length,
-    analytics: caseStudies.filter((c) => c.categories.includes("analytics")).length,
-  };
-
-  // Filter and sort so that product cases lead by default
-  const filteredStudies = caseStudies
-    .filter((study) => {
-      if (!currentFilter || currentFilter === "all") return true;
-      return study.categories.includes(currentFilter as WorkCategory);
-    })
-    .sort((a, b) => {
-      // Product entries appear first by default
-      const aHasProd = a.categories.includes("product") ? 1 : 0;
-      const bHasProd = b.categories.includes("product") ? 1 : 0;
-      return bHasProd - aHasProd;
-    });
-
+export default function WorkPage() {
   return (
     <div className="py-12 md:py-20">
       <div className="container-editorial">
@@ -63,23 +35,16 @@ export default async function WorkPage({ searchParams }: WorkPageProps) {
           </p>
         </div>
 
-        {/* Filter Bar */}
-        <Suspense fallback={<div className="h-12 border-b border-[#C8C3B8]" />}>
-          <FilterBar currentFilter={currentFilter} counts={counts} />
-        </Suspense>
-
-        {/* Case Studies List */}
-        <div className="flex flex-col mt-6">
-          {filteredStudies.length > 0 ? (
-            filteredStudies.map((cs, idx) => (
-              <WorkIndexItem key={cs.slug} caseStudy={cs} index={idx} />
-            ))
-          ) : (
-            <div className="py-16 text-center text-[#66645E] font-mono text-sm">
-              No case studies match this filter.
+        {/* Work Catalog with Suspense for URL searchParams */}
+        <Suspense
+          fallback={
+            <div className="py-12 font-mono text-xs text-[#66645E]">
+              Loading work items...
             </div>
-          )}
-        </div>
+          }
+        >
+          <WorkCatalog caseStudies={caseStudies} />
+        </Suspense>
 
         {/* Source Note */}
         <div className="mt-16 pt-8 border-t border-[#C8C3B8]/60 text-xs font-mono text-[#66645E]">
