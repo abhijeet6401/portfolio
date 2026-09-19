@@ -100,6 +100,14 @@ export const caseStudies: CaseStudy[] = [
               "Working at the Snabbit operations desk: translating daily warehouse telemetry, SQL queries, and dispatch logs into category roadmap choices.",
             sourceLabel: "Original documentary photo",
           },
+          {
+            kind: "photo",
+            src: "/images/snabbit-wall-graphic.png",
+            alt: "Snabbit office brand feature wall reading Make Snabbit a Habit",
+            caption:
+              "The customer habit loop: Snabbit headquarters feature wall reflecting the retention focus behind the Blush Prive in-app pass.",
+            sourceLabel: "Original documentary photo",
+          },
         ],
       },
       {
@@ -179,6 +187,16 @@ export const caseStudies: CaseStudy[] = [
           "Aequitas Investments is a boutique wealth management and investment fund managing approximately $1Bn in assets under management (AUM). Investment analysts were spending upwards of half their working hours manually scanning 10+ disconnected news feeds, earnings releases, and regulatory filings.",
           "Meanwhile, high-net-worth individual (HNI) client interactions were tracked across disparate systems and an off-the-shelf Salesforce instance that was overly complex and disconnected from the investment team's actual portfolio theses.",
           "The firm needed custom tools designed specifically for investment research velocity and relationship responsiveness, without compromising security, confidentiality, or data integrity.",
+        ],
+        artifacts: [
+          {
+            kind: "photo",
+            src: "/images/aequitas-presence.png",
+            alt: "Office entrance with embossed logo reading AEQUITAS on stone wall",
+            caption:
+              "Aequitas Investments office entrance: a high-trust $1Bn AUM investing environment where speed is useful only with verified source attribution.",
+            sourceLabel: "Original documentary photo",
+          },
         ],
       },
       {
@@ -648,6 +666,25 @@ export const caseStudies: CaseStudy[] = [
         body: [
           "Architected a full-stack Python/FastAPI and Next.js platform orchestrating 4 GenAI engines via LangGraph for business data analytics and KPI generation.",
           "Engineered a self-healing SQL pipeline that autonomously inspects and rewrites failed database queries, attaining a 98% execution success rate and 88.2% healing efficiency. Designed a G-Eval framework with execution-aware scoring that improved weighted benchmark accuracy from 60.4% to 80.1%.",
+        ],
+      },
+      {
+        id: "gc-pm",
+        heading: "Product Management Winner – General Championship, IIT Kharagpur",
+        body: [
+          "Awarded 1st Position in Product Management at the Technology General Championship by the Technology Students' Gymkhana (TSG), IIT Kharagpur.",
+          "Pioneered the end-to-end product design of a full-stack insurance super-app integrating telemedicine, gig workers, and family policy management to create a unified B2B2C ecosystem.",
+          "Defined a scalable product roadmap designed to onboard 10M+ users, projecting ₹120 Cr in premium growth and a 30% retention improvement. Architected 4 core product modules that cut claims processing costs by 35%, expanded rural access by 40%, and elevated user experience via real-time AI-driven claim status tracking.",
+        ],
+        artifacts: [
+          {
+            kind: "photo",
+            src: "/images/gc-pm-proof.jpg",
+            alt: "Official certificate signed by Technology Students Gymkhana confirming Abhijeet Kumar in 1st Position for Product Management",
+            caption:
+              "Official TSG citation confirming 1st Position in Product Management (Abhijeet Kumar, 23HS10002) at IIT Kharagpur.",
+            sourceLabel: "Official competition certificate",
+          },
         ],
       },
       {

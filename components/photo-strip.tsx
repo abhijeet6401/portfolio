@@ -10,15 +10,15 @@ export function PhotoStrip() {
       colSpan: "lg:col-span-5",
     },
     {
-      src: "/images/snabbit-desk-builder.jpg",
-      alt: "Working at the Snabbit operations desk in Bengaluru",
-      caption: "Seeing product promise and daily telemetry meet in the real world.",
-      aspect: "aspect-[4/5]",
+      src: "/images/snabbit-wall-graphic.png",
+      alt: "Snabbit office brand feature wall reading Make Snabbit a Habit",
+      caption: "Seeing product promise and delivery meet in the real world.",
+      aspect: "aspect-[4/3]",
       colSpan: "lg:col-span-3",
     },
     {
-      src: "/images/warehouse-fieldwork.jpg",
-      alt: "Cross-functional operations coordination and inventory management",
+      src: "/images/kgp-team-community.png",
+      alt: "IIT Kharagpur team and student cohort in blue polo shirts",
       caption: "Most good work is cross-functional before it is presentable.",
       aspect: "aspect-[16/10]",
       colSpan: "lg:col-span-4",
@@ -38,7 +38,7 @@ export function PhotoStrip() {
             </h2>
           </div>
           <p className="font-mono text-xs text-[#66645E] mt-2 md:mt-0 max-w-sm">
-            Documentary evidence from operations, dispatch desks, and warehouse floors.
+            Documentary evidence from warehouse audits, brand activations, and campus teams.
           </p>
         </div>
 

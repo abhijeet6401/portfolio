@@ -13,6 +13,19 @@ export interface ManifestAsset {
 
 export const assetManifest: ManifestAsset[] = [
   {
+    filename: "abhijeet-portrait.png",
+    slug: "abhijeet-portrait",
+    title: "Abhijeet Kumar — Portrait",
+    approvedContext:
+      "Portrait of Abhijeet Kumar in black shirt and beige trousers.",
+    altText: "Portrait of Abhijeet Kumar standing outdoors",
+    focalPoint: { x: 50, y: 35 },
+    cropVariants: ["3:4 portrait", "1:1 square", "4:5 lead"],
+    confidentialityNotes: "Original documentary portrait.",
+    isUsed: true,
+    placement: "About page lead bio; Thinking page reflection.",
+  },
+  {
     filename: "snabbit-desk-builder.jpg",
     slug: "snabbit-desk",
     title: "Abhijeet at Snabbit Workspace",
@@ -25,7 +38,7 @@ export const assetManifest: ManifestAsset[] = [
     confidentialityNotes:
       "Verified original photo. No confidential customer or vendor data visible.",
     isUsed: true,
-    placement: "Homepage hero beside intro; Snabbit case study contribution section.",
+    placement: "Homepage hero beside intro; Snabbit case study contribution section; About page.",
   },
   {
     filename: "warehouse-fieldwork.jpg",
@@ -40,7 +53,75 @@ export const assetManifest: ManifestAsset[] = [
     confidentialityNotes:
       "Verified original fieldwork photo. Shows physical SKU bins and packaging.",
     isUsed: true,
-    placement: "Homepage field strip (first image); Snabbit case study 'What I needed to understand'.",
+    placement: "Homepage field strip (first image); Snabbit case study 'What I needed to understand'; Thinking page.",
+  },
+  {
+    filename: "snabbit-wall-graphic.png",
+    slug: "snabbit-wall",
+    title: "Snabbit Office 'Make Snabbit a Habit' Activation",
+    approvedContext:
+      "Snabbit headquarters feature wall displaying 'MAKE Snabbit A HABIT' brand typography.",
+    altText: "Magenta feature wall with bold white text reading Make Snabbit a Habit",
+    focalPoint: { x: 50, y: 50 },
+    cropVariants: ["16:9 wide", "4:3 inset"],
+    confidentialityNotes: "Original brand activation documentary photo.",
+    isUsed: true,
+    placement: "Homepage field strip (second image); Snabbit case study launch section.",
+  },
+  {
+    filename: "kgp-team-community.png",
+    slug: "kgp-team",
+    title: "IIT Kharagpur Team & Community",
+    approvedContext:
+      "IIT Kharagpur student cohort and team wearing royal blue department shirts, with Abhijeet sitting front and center.",
+    altText:
+      "Group photo of IIT Kharagpur team members in blue polo shirts with Abhijeet Kumar sitting in front center",
+    focalPoint: { x: 50, y: 60 },
+    cropVariants: ["4:3 group", "16:9 contextual"],
+    confidentialityNotes: "Original campus community photo.",
+    isUsed: true,
+    placement: "Homepage field strip (third image); About page community section.",
+  },
+  {
+    filename: "aequitas-presence.png",
+    slug: "aequitas-presence",
+    title: "Aequitas Investments Office Presence",
+    approvedContext:
+      "Entrance to Aequitas Investments showing the embossed logo and office door.",
+    altText: "Office entrance with embossed logo reading AEQUITAS on neutral stone wall",
+    focalPoint: { x: 50, y: 50 },
+    cropVariants: ["4:5 environmental", "1:1 square"],
+    confidentialityNotes:
+      "Environmental contextual image supported by case text. No proprietary research displayed.",
+    isUsed: true,
+    placement: "Aequitas case study 'The Situation'.",
+  },
+  {
+    filename: "flight-night-view.png",
+    slug: "flight-night-view",
+    title: "Night Flight & Cross-City Field Travel",
+    approvedContext:
+      "Aerial view from aircraft window over illuminated city highways at night.",
+    altText: "Airplane wing looking out at night over illuminated city grids and highways",
+    focalPoint: { x: 50, y: 50 },
+    cropVariants: ["9:16 vertical", "4:5 atmospheric"],
+    confidentialityNotes: "Documentary travel / field operations perspective.",
+    isUsed: true,
+    placement: "About page travel / operations detail.",
+  },
+  {
+    filename: "gc-pm-proof.jpg",
+    slug: "gc-pm-proof",
+    title: "General Championship 1st Position Proof (Product Management)",
+    approvedContext:
+      "Official certificate listing Abhijeet Kumar (23HS10002) at 1st Position in Product Management signed by Technology Students' Gymkhana, IIT Kharagpur.",
+    altText:
+      "Official document signed by Technology Students' Gymkhana confirming Abhijeet Kumar in 1st Position for Product Management",
+    focalPoint: { x: 50, y: 30 },
+    cropVariants: ["3:4 document", "full certificate"],
+    confidentialityNotes: "Verified competition win certificate.",
+    isUsed: true,
+    placement: "Research & Competitions case study ('General Championship' section).",
   },
   {
     filename: "aequitas-architecture.svg",
@@ -79,7 +160,7 @@ export const assetManifest: ManifestAsset[] = [
     approvedContext:
       "Evaluation rubric contrasting headline growth metrics with verified unit economics, warranty liabilities, and capital intensity.",
     altText:
-      "Diligence matrix diagram contrasting headline pitch metrics against contribution margin and defensibility criteria",
+      "Diligence matrix diagram contrasting pitch claims against contribution margin and defensibility criteria",
     focalPoint: { x: 50, y: 50 },
     cropVariants: ["16:9 diagram"],
     confidentialityNotes:
