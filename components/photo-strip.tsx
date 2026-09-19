@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { PortfolioImage as Image } from "@/components/portfolio-image";
 
 export function PhotoStrip() {
   const images = [

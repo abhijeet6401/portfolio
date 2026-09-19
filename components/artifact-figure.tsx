@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { PortfolioImage as Image } from "@/components/portfolio-image";
 import { Artifact } from "@/lib/content-schema";
 
 interface ArtifactFigureProps {

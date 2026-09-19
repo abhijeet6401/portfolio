@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
+import { PortfolioImage as Image } from "@/components/portfolio-image";
 import { principles } from "@/content/principles";
 import { generatePageMetadata } from "@/lib/metadata";
 

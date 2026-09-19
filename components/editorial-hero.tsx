@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import { PortfolioImage as Image } from "@/components/portfolio-image";
 import { profile } from "@/content/profile";
 
 export function EditorialHero() {
