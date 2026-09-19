@@ -1,0 +1,61 @@
+<svg width="960" height="540" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="540" fill="#FAF8F2" rx="6" />
+  <rect x="0.5" y="0.5" width="959" height="539" stroke="#C8C3B8" rx="5.5" />
+  
+  <text x="48" y="52" fill="#1D1D1B" font-family="Newsreader, Georgia, serif" font-size="22" font-weight="600">Decision-Centric Forecasting Hierarchy</text>
+  <text x="48" y="78" fill="#66645E" font-family="Inter, sans-serif" font-size="13">Frost &amp; Sullivan · Multi-Country Commercial Forecasting across $23M+ Scope</text>
+  <line x1="48" y1="98" x2="912" y2="98" stroke="#C8C3B8" stroke-width="1" />
+
+  <!-- 3 Stages: Data Harmonization, Time-Series Modeling, Executive Choices -->
+  <rect x="48" y="130" width="260" height="340" fill="#F3F0E8" stroke="#C8C3B8" rx="4" />
+  <text x="68" y="165" fill="#A7472A" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="600">STAGE 1: AUDIT &amp; CLEANSE</text>
+  <text x="68" y="195" fill="#1D1D1B" font-family="Inter, sans-serif" font-size="15" font-weight="600">$23M+ Multi-Country Data</text>
+  <text x="68" y="222" fill="#66645E" font-family="Inter, sans-serif" font-size="13">Reconciling disparate country ledgers</text>
+
+  <rect x="68" y="250" width="220" height="60" fill="#FAF8F2" stroke="#C8C3B8" rx="3" />
+  <text x="80" y="275" fill="#1D1D1B" font-family="Inter, sans-serif" font-size="13" font-weight="600">8.0% Return Rate Isolated</text>
+  <text x="80" y="295" fill="#66645E" font-family="Inter, sans-serif" font-size="12">Separates refunds from demand</text>
+
+  <rect x="68" y="325" width="220" height="60" fill="#FAF8F2" stroke="#C8C3B8" rx="3" />
+  <text x="80" y="350" fill="#1D1D1B" font-family="Inter, sans-serif" font-size="13" font-weight="600">Nov–Dec Seasonal Spike</text>
+  <text x="80" y="370" fill="#66645E" font-family="Inter, sans-serif" font-size="12">Quantifies holiday inventory run</text>
+
+  <text x="68" y="440" fill="#A7472A" font-family="IBM Plex Mono, monospace" font-size="11">SCOPE: 3 Market Segments</text>
+
+  <path d="M318 300 H362 M354 294 L362 300 L354 306" stroke="#A7472A" stroke-width="1.5" />
+
+  <rect x="370" y="130" width="260" height="340" fill="#F3F0E8" stroke="#C8C3B8" rx="4" />
+  <text x="390" y="165" fill="#A7472A" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="600">STAGE 2: HYBRID MODELS</text>
+  <text x="390" y="195" fill="#1D1D1B" font-family="Inter, sans-serif" font-size="15" font-weight="600">Predictive Engine</text>
+  <text x="390" y="222" fill="#66645E" font-family="Inter, sans-serif" font-size="13">Moving Avg + Exp. Smoothing + LSTM</text>
+
+  <rect x="390" y="250" width="220" height="60" fill="#FAF8F2" stroke="#C8C3B8" rx="3" />
+  <text x="402" y="275" fill="#1D1D1B" font-family="Inter, sans-serif" font-size="13" font-weight="600">Automated CAGR Tracking</text>
+  <text x="402" y="295" fill="#66645E" font-family="Inter, sans-serif" font-size="12">SQL-DAX dynamic aggregations</text>
+
+  <rect x="390" y="325" width="220" height="60" fill="#FAF8F2" stroke="#C8C3B8" rx="3" />
+  <text x="402" y="350" fill="#1D1D1B" font-family="Inter, sans-serif" font-size="13" font-weight="600">Cross-Country Elasticity</text>
+  <text x="402" y="370" fill="#66645E" font-family="Inter, sans-serif" font-size="12">Regional variance benchmarks</text>
+
+  <text x="390" y="440" fill="#A7472A" font-family="IBM Plex Mono, monospace" font-size="11">TOOL: Power BI Cockpit</text>
+
+  <path d="M640 300 H684 M676 294 L684 300 L676 306" stroke="#A7472A" stroke-width="1.5" />
+
+  <rect x="692" y="130" width="220" height="340" fill="#F3F0E8" stroke="#C8C3B8" rx="4" />
+  <text x="712" y="165" fill="#A7472A" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="600">STAGE 3: DECISIONS</text>
+  <text x="712" y="195" fill="#1D1D1B" font-family="Inter, sans-serif" font-size="15" font-weight="600">Executive Choices</text>
+  <text x="712" y="222" fill="#66645E" font-family="Inter, sans-serif" font-size="13">Action over static charts</text>
+
+  <rect x="712" y="250" width="180" height="50" fill="#FAF8F2" stroke="#C8C3B8" rx="3" />
+  <text x="724" y="280" fill="#1D1D1B" font-family="Inter, sans-serif" font-size="13">Inventory Commit Dates</text>
+
+  <rect x="712" y="310" width="180" height="50" fill="#FAF8F2" stroke="#C8C3B8" rx="3" />
+  <text x="724" y="340" fill="#1D1D1B" font-family="Inter, sans-serif" font-size="13">Return Loss Reserves</text>
+
+  <rect x="712" y="370" width="180" height="50" fill="#FAF8F2" stroke="#C8C3B8" rx="3" />
+  <text x="724" y="400" fill="#1D1D1B" font-family="Inter, sans-serif" font-size="13">Regional Capital Allocation</text>
+
+  <text x="712" y="440" fill="#A7472A" font-family="IBM Plex Mono, monospace" font-size="11">OUTCOME: Capital Protected</text>
+
+  <text x="48" y="505" fill="#66645E" font-family="Inter, sans-serif" font-size="11">Recreated for this portfolio from non-confidential information · Source references: CV1-FS-L1, CV1-FS-L2, CV1-FS-L3</text>
+</svg>
