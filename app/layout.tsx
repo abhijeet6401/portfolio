@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     default: "Abhijeet Kumar — Product Builder",
   },
   description:
-    "Product builder turning messy user and operating problems into products, decisions, and systems that work. Ground truth case studies across Snabbit, Aequitas, Frost & Sullivan, and India Accelerator.",
+    "Product builder at IIT Kharagpur building systems that survive contact with real operations, users, and unit economics. Ground truth case studies across Snabbit, Aequitas, Frost & Sullivan, and India Accelerator.",
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://abhijeetkumar.dev"),
   alternates: {
     canonical: "/",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Abhijeet Kumar — Product Builder",
     description:
-      "Product builder turning messy user and operating problems into products, decisions, and systems that work.",
+      "Building products that survive contact with real operations, users, and unit economics.",
     url: process.env.NEXT_PUBLIC_SITE_URL || "https://abhijeetkumar.dev",
     siteName: "Abhijeet Kumar Portfolio",
     locale: "en_US",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Abhijeet Kumar — Product Builder",
     description:
-      "Product builder turning messy user and operating problems into products, decisions, and systems that work.",
+      "Building products that survive contact with real operations, users, and unit economics.",
   },
 };
 

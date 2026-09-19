@@ -82,7 +82,7 @@ export default async function Image() {
               margin: 0,
             }}
           >
-            I turn messy user and operating problems into products, decisions, and systems that work.
+            Building products that survive contact with real operations, users, and unit economics.
           </p>
         </div>
 
