@@ -49,7 +49,7 @@ export default function WorkPage() {
         {/* Source Note */}
         <div className="mt-16 pt-8 border-t border-[#C8C3B8]/60 text-xs font-mono text-[#66645E]">
           <p>
-            * All figures, metrics, and outcomes are verified against approved CV materials. Anonymized where client or diligence confidentiality requires.
+            * Case studies and metrics reflect real operating history. Proprietary data and client names are generalized or omitted for confidentiality.
           </p>
         </div>
       </div>

@@ -12,7 +12,7 @@ I prioritize problems where operational reality matters, the system is still tak
   availabilityNote:
     "Graduating 2027 · Open to Product, Strategy/Consulting, and Analytics roles across India.",
   confidentialityNote:
-    "Selected metrics are drawn from Abhijeet's approved CVs. Confidential details and client material have been omitted or anonymized.",
+    "Case studies and outcomes reflect real operating work. Proprietary details and client materials are omitted or generalized for confidentiality.",
   email: "abhijeet2k6@gmail.com",
   github: "https://github.com/abhijeet6401",
   education: {
