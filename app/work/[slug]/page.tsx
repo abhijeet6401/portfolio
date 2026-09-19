@@ -30,7 +30,7 @@ export async function generateMetadata({
   }
 
   return generatePageMetadata({
-    title: `${study.organization} — ${study.title}`,
+    title: `${study.organization} · ${study.title}`,
     description: `${study.oneLineProblem} ${study.deck}`,
     path: `/work/${study.slug}`,
   });

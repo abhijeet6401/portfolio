@@ -35,7 +35,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: {
     template: "%s · Abhijeet Kumar",
-    default: "Abhijeet Kumar — Product Builder",
+    default: "Abhijeet Kumar · Product Builder",
   },
   description:
     "Product builder at IIT Kharagpur building systems that survive contact with real operations, users, and unit economics. Ground truth case studies across Snabbit, Aequitas, Frost & Sullivan, and India Accelerator.",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Abhijeet Kumar — Product Builder",
+    title: "Abhijeet Kumar · Product Builder",
     description:
       "Building products that survive contact with real operations, users, and unit economics.",
     url: process.env.NEXT_PUBLIC_SITE_URL || "https://abhijeetkumar.dev",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Abhijeet Kumar — Product Builder",
+    title: "Abhijeet Kumar · Product Builder",
     description:
       "Building products that survive contact with real operations, users, and unit economics.",
   },

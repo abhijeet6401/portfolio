@@ -1,4 +1,4 @@
-# Abhijeet Kumar — Production Portfolio Website
+# Abhijeet Kumar · Production Portfolio Website
 
 A personal portfolio website for **Abhijeet Kumar**, positioned primarily as a **Product Builder** with strong secondary pathways in **Strategy / Consulting** and **Analytics**. Built with Next.js 16 (App Router), TypeScript, and Tailwind CSS.
 

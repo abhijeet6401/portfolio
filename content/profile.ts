@@ -3,7 +3,7 @@ export const profile = {
   roleDescriptor: "Product builder · India",
   headline: "Building products that survive contact with real operations, users, and unit economics.",
   intro:
-    "I'm Abhijeet Kumar, an undergraduate at IIT Kharagpur. Rather than designing from a clean whiteboard, I prefer being close to the ground—whether that means auditing dark stores to fix technician dispatch, building custom research tooling for investment analysts, or stress-testing commercial unit economics. I'm drawn to messy problems where software has to work alongside human operations.",
+    "I'm Abhijeet Kumar, an undergraduate at IIT Kharagpur. Rather than designing from a clean whiteboard, I prefer being close to the ground, whether that means auditing dark stores to fix technician dispatch, building custom research tooling for investment analysts, or stress-testing commercial unit economics. I'm drawn to messy problems where software has to work alongside human operations.",
   bio: `I am an undergraduate at IIT Kharagpur studying Economics with a minor in Mathematics & Computing and a micro-specialization in Artificial Intelligence. My work has crossed high-frequency service operations, investment research workflows, multi-country commercial forecasting, early-stage venture diligence, and autonomous builder tools.
 
 Across these environments, my advantage has not been that I have touched many fields. It is that I translate between them: turning field realities into product specifications, complex datasets into operating decisions, and ambiguous business questions into structured, cross-functional execution.

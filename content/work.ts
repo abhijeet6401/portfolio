@@ -87,7 +87,7 @@ export const caseStudies: CaseStudy[] = [
         heading: "My Contribution",
         body: [
           "Working collaboratively across operations, warehouse managers, and software engineers, I focused on three concrete interventions:",
-          "1. Productized Retention ('Blush Prive'): Instead of relying on generic discount banners, I helped design and launch 'Blush Prive'—an in-app retention pass tailored for high-frequency grooming customers. This shifted booking frequency from sporadic to predictable, lifting retention GOV from 20% to 50% of total category volume.",
+          "1. Productized Retention ('Blush Prive'): Instead of relying on generic discount banners, I helped design and launch 'Blush Prive', an in-app retention pass tailored for high-frequency grooming customers. This shifted booking frequency from sporadic to predictable, lifting retention GOV from 20% to 50% of total category volume.",
           "2. Category Expansion (Mani-Pedi Launch): I analyzed pricing models, duration constraints, and basket sizing to structure the launch of manicure & pedicure services. The offering rapidly captured 15%+ of category order share and roughly doubled average order value (AOV) to approximately ₹2,000.",
           "3. Unit Economics & Warehouse Controls: I queried Snabbit's database via SQL and modeled cost-to-revenue drivers in Excel. By consolidating suppliers, negotiating per-unit vendor pricing, and building SKU-level reorder tracking for 100+ SKUs across two warehouses, we cut product costs from 40% to 20% of revenue, saved approximately ₹50 Lakh per month, and cut stock-out frequency by 70%.",
         ],
@@ -394,7 +394,7 @@ export const caseStudies: CaseStudy[] = [
         heading: "What I Needed to Understand",
         body: [
           "In early-stage evaluation, the most common trap is confusing a large total addressable market (TAM) with a company's ability to capture value.",
-          "I synthesized data across 20+ primary and secondary sources—reviewing audited accounts, tracking customer dispute boards, auditing return logistics costs, and mystery-shopping competitor platforms (benchmarking 15+ players including Grest and ValueShoppe).",
+          "I synthesized data across 20+ primary and secondary sources: reviewing audited accounts, tracking customer dispute boards, auditing return logistics costs, and mystery-shopping competitor platforms (benchmarking 15+ players including Grest and ValueShoppe).",
         ],
       },
       {
@@ -599,7 +599,7 @@ export const caseStudies: CaseStudy[] = [
           "Credit cardholders are frequently presented with multiple merchant and rewards offers. Presenting irrelevant offers creates user fatigue and diminishes offer redemptions. Because cardholders typically only evaluate the top handful of visible offers, ranking accuracy at top positions (top 7) is vastly more critical than overall classification accuracy.",
           "To optimize this ordering, I engineered an Ensemble of Experts and Rankers (E2R) model leveraging both LightGBM and XGBoost ranking objectives.",
           "I constructed dense behavioral features using Non-Negative Matrix Factorization (NMF), Uniform Manifold Approximation and Projection (UMAP), and HDBSCAN clustering to capture latent cardholder spending profiles without overfitting.",
-          "Systematic hyperparameter optimization via Optuna Bayesian search yielded a Mean Average Precision at 7 (MAP@7) of 0.652—a 22.9% improvement over the baseline model—alongside an 18% lift in NDCG@7 and a 20%+ increase in AUC-PR.",
+          "Systematic hyperparameter optimization via Optuna Bayesian search yielded a Mean Average Precision at 7 (MAP@7) of 0.652 (a 22.9% improvement over the baseline model), alongside an 18% lift in NDCG@7 and a 20%+ increase in AUC-PR.",
         ],
       },
       {

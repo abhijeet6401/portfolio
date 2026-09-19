@@ -26,7 +26,7 @@ export function generatePageMetadata({
       title: fullTitle,
       description,
       url,
-      siteName: "Abhijeet Kumar — Product Builder",
+      siteName: "Abhijeet Kumar · Product Builder",
       locale: "en_US",
       type: "website",
     },

@@ -15,7 +15,7 @@ export const assetManifest: ManifestAsset[] = [
   {
     filename: "abhijeet-portrait.png",
     slug: "abhijeet-portrait",
-    title: "Abhijeet Kumar — Portrait",
+    title: "Abhijeet Kumar · Portrait",
     approvedContext:
       "Portrait of Abhijeet Kumar in black shirt and beige trousers.",
     altText: "Portrait of Abhijeet Kumar standing outdoors",
