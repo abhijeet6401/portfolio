@@ -14,7 +14,7 @@ I prioritize problems where operational reality matters, the system is still tak
   confidentialityNote:
     "Selected metrics are drawn from Abhijeet's approved CVs. Confidential details and client material have been omitted or anonymized.",
   email: "realabhijeet007@gmail.com",
-  github: "https://github.com/abhijeetkumar-dev",
+  github: "https://github.com/abhijeet6401",
   education: {
     degree: "B.S. (Hons.) in Economics",
     institution: "IIT Kharagpur",
