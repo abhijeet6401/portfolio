@@ -2,6 +2,9 @@
 
 A personal portfolio website for **Abhijeet Kumar**, positioned primarily as a **Product Builder** with strong secondary pathways in **Strategy / Consulting** and **Analytics**. Built with Next.js 16 (App Router), TypeScript, and Tailwind CSS.
 
+**Live Deployment**: [https://abhijeet6401.github.io/portfolio/](https://abhijeet6401.github.io/portfolio/)  
+**GitHub Repository**: [https://github.com/abhijeet6401/portfolio](https://github.com/abhijeet6401/portfolio)
+
 ---
 
 ## 1. Positioning & Design Philosophy
